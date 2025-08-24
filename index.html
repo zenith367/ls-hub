@@ -111,36 +111,51 @@
                  font-size: 16px;
                 }
 
-                @media screen and (max-width: 600px) {
-                  .ali {
-                      flex-direction: column;
-                      gap: 10px;
-                      text-align: center;
-                }
+               /* ================================
+   HOME PAGE - MOBILE STYLES
+   ================================ */
+@media screen and (max-width: 768px) {
 
-                  .wrapper {
-                   flex-direction: column;
-                   align-items: center;
-                 }
+  .ali {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
 
-                 .photo-section {
-                     flex-direction: column;
-                 }
+  .ali a {
+    font-size: 16px;
+  }
 
-                  .Welcome {
-                     position: relative;
-                     transform: none;
-                     top: auto;
-                     left: auto;
-                      margin: 15px;
-                }
+  .img {
+    margin: 10px auto !important;
+    display: block;
+    width: 100px;
+    height: auto;
+  }
 
-                .footer {
-                 flex-direction: column;
-                text-align: center;
-                gap: 10px;
-               }
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .hero img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .hero-text {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
 }
+
 
                 .footer {
                    display: flex;
@@ -229,4 +244,5 @@
        
         
     </body>
+
 </html>
